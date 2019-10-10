@@ -1,3 +1,7 @@
+# Surface Boot Themes for Grub2
+
+![Example image](/surface/desktop.png)
+
 # INSTALL INSTRUCTIONS
 1. Run: `sudo mkdir /usr/share/grub/themes` (IF DONE SKIP TO TWO.)
 2. Run: `sudo cp --recursive ./surface /usr/share/grub/themes`
