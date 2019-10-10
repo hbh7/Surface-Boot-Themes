@@ -52,4 +52,12 @@
     ```
     Replace `${LONGNAME} $onstr` with Windows (note: edit title as desired.)
     
-7. Run: `sudo update-grub`
+    If you're like me and don't have this line, you can manually edit your grub.cfg and change the line.  (Do this after step 7)
+    
+    It will look something like `Windows Boot Manager (on /dev/driveidentifier)`. 
+    
+    You could also use this sed script to change it automatically. `sudo sed -i 's/Windows Boot Manager (on \/dev\/nvme0n1p2)/Windows 10/g' /boot/grub/grub.cfg`
+    
+    Do note though that these changes are lost after regenerating the grub config file, such as in step 7, so do that first, then this. 
+    
+7. Run: `sudo grub-mkconfig -o /boot/grub/grub.cfg`
