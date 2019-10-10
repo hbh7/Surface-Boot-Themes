@@ -2,6 +2,8 @@
 
 ![Example image](/surface/desktop.png)
 
+(List of operating systems would be on the right) 
+
 # INSTALL INSTRUCTIONS
 1. Run: `sudo mkdir /usr/share/grub/themes` (IF DONE SKIP TO TWO.)
 2. Run: `sudo cp --recursive ./surface /usr/share/grub/themes`
