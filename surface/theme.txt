@@ -7,13 +7,13 @@ desktop-image: "desktop.png"
 terminal-box: "terminal_*.png"
 
 + boot_menu {  
-   left = 1250
+   left = 1700
    width = 550
-   top = 350
+   top = 800
    height = 40%
    item_font = "Ubuntu Regular 40"
    item_color = "#231f20"
-   selected_item_color= "#f08080"
+   selected_item_color= "#2327eb"
    icon_width = 78
    icon_height = 80
    item_height = 80
